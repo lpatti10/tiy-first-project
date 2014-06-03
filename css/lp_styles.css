@@ -1,0 +1,59 @@
+body {
+	background-color: #2E393F;
+}
+
+h1 {
+	font-size: 100px;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: 'Fjalla One', sans-serif;
+	/*font-family: 'Glegoo', serif;*/
+	text-transform;
+	color: #D9BDAA;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+blockquote {
+	color: #F2F0F0;
+	font-family: 'Glegoo', serif;
+	text-align: center;
+	margin-top: 0;
+}
+
+.author {
+	font-style: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #D9BDAA;
+	letter-spacing: 1px;
+}
+
+.headshot {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+	margin-bottom: 0px;
+	margin-right: auto;
+  height: 240px;
+  width: 240px;
+  line-height: 240px;
+  border-radius: 120px; 
+  padding: 0px;
+  /*this inner shadow didn't work, and the white border I tried wasn't smooth
+  box-shadow: inset 50px 50px 50px #1C2124;
+  border: 5px #000000*/
+}
+
+.icon {
+	display: block;
+}
+
+.sprite {
+	width: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
